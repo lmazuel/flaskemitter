@@ -1,0 +1,28 @@
+{
+  "name": "flaskemitter",
+  "version": "1.0.0",
+  "description": "Generate Python server code using Flask",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "peerDependencies": {
+    "@typespec/compiler": "^0.49.0"
+  },
+  "tspMain": "lib/main.tsp",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@azure-tools/typespec-azure-core": "^0.35.0",
+    "@types/node": "^20.8.9",
+    "@typespec/openapi3": "^0.49.0",
+    "@typespec/rest": "^0.49.0"
+  }
+}
